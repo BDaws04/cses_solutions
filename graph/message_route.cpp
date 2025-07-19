@@ -8,7 +8,6 @@ int main () {
     int n, m;
     std::cin >> n >> m;
 
-    //n+1 as non-zeroed computer indexes
     std::vector<std::vector<int>> connections(n+1);
     for (int i = 0; i < m; ++i){
         int b, e;
